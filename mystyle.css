@@ -1,0 +1,75 @@
+/* 태그 선택자 */
+h3 {
+    color: green;
+}
+
+p {
+    color: #123456;
+}
+
+/* #id 선택자 */
+#two{
+    color: red;
+}
+
+/* .class 선택자 */
+.orange{
+    color: orange;
+}
+
+/* 우선순위 : 태그선택자, id선택자, class선택자 */
+
+p.center{
+    text-align: center;
+}
+
+
+p#size {
+    font-size: 50px;
+}
+
+li {
+    color: blueviolet;
+    background-color: #00ff00;
+}
+
+ul.korean > li {
+    color: red;
+}
+
+.box {
+    /* 테두리 */
+    /* border: 5px solid red; */
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 6px;
+
+    /* border와 border 사이 */
+    margin-top: 10px;
+    margin-left: 5px;
+
+    /* border와 contents 사이 */
+    padding-top: 10px;
+
+    text-align: center;
+}
+
+.font{
+    font-family: Tangerine;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.d-block {
+    display: block;
+}
+
+/* flex 동적으로 처리 */
+.d-flex {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* flex 연습페이지 : https://flexboxfroggy.com/#ko */

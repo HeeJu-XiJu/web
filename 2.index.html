@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>form</h1>
+    <form action="">
+        <label for="username">아이디</label>
+        <input type="text" id="username" name="username">
+
+        <!-- CSS로 처리할 예정 -->
+        <br>
+
+        <!-- label과 input을 연결하기 위해 id = for 동일하게 작성 -->
+        <!-- 비밀번호 선택 시 password input창으로 이동함 -->
+        <label for="password">비밀번호</label>
+        <input type="text" id="password" name="password">
+
+        <br>
+    
+        <label for="html">HTML</label>
+        <!-- 여러 개 중에 하나 선택 -->
+        <!-- 하나만 선택할 수 있도록 name으로 묶어줌 -->
+        <input type="radio" name="choice" value="HTML"> 
+        <label for="css">CSS</label>
+        <input type="radio" name="choice" value="CSS">
+
+        <br>
+
+        <!-- 여러 개중에 여러 개 선택 -->
+        <label for="vehicle1">bike</label>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="bike">
+        <label for="vehicle2">car</label>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="car">
+
+        <br>
+
+        <input type="email">
+        <input type="pasword">
+        <input type="date">
+        <input type="color">
+
+
+        <input type="submit">
+        
+    </form>
+</body>
+</html>
